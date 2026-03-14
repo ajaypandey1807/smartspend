@@ -1,0 +1,65 @@
+.analytics-layout{
+
+  display:flex;
+
+}
+
+/* MAIN AREA */
+
+.analytics{
+
+  margin-left:240px;
+
+  padding:40px;
+
+  width:100%;
+
+  text-align:center;
+
+}
+
+/* GRID */
+
+.analytics{
+
+  display:grid;
+
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+  gap:30px;
+
+}
+
+/* CHART CARD */
+
+.chart-box{
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:12px;
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+}
+
+/* TITLE */
+
+.chart-box h3{
+
+  margin-bottom:15px;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .analytics{
+
+    margin-left:0;
+
+  }
+
+}

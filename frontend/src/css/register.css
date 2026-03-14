@@ -1,0 +1,206 @@
+/* PAGE BACKGROUND */
+
+.register-page{
+
+  height:100vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  background:linear-gradient(270deg,#1f4037,#99f2c8,#2c5364);
+
+  background-size:600% 600%;
+
+  animation:bgFlow 12s ease infinite;
+
+}
+
+/* BACKGROUND ANIMATION */
+
+@keyframes bgFlow{
+
+  0%{background-position:0% 50%}
+
+  50%{background-position:100% 50%}
+
+  100%{background-position:0% 50%}
+
+}
+
+/* CARD */
+
+.register-card{
+
+  width:380px;
+
+  padding:45px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.1);
+
+  backdrop-filter:blur(15px);
+
+  box-shadow:0 15px 60px rgba(0,0,0,0.5);
+
+  text-align:center;
+
+  color:white;
+
+  animation:cardEnter 0.8s ease;
+
+}
+
+/* CARD ANIMATION */
+
+@keyframes cardEnter{
+
+  0%{
+
+    transform:translateY(40px);
+
+    opacity:0;
+
+  }
+
+  100%{
+
+    transform:translateY(0);
+
+    opacity:1;
+
+  }
+
+}
+
+/* LOGO */
+
+.register-logo{
+
+  font-size:34px;
+
+  margin-bottom:5px;
+
+}
+
+.register-sub{
+
+  font-size:14px;
+
+  opacity:0.8;
+
+  margin-bottom:25px;
+
+}
+
+/* INPUT */
+
+.input-box{
+
+  position:relative;
+
+  margin-bottom:20px;
+
+}
+
+.input-box input{
+
+  width:100%;
+
+  padding:12px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:rgba(255,255,255,0.2);
+
+  color:white;
+
+  outline:none;
+
+}
+
+.input-box label{
+
+  position:absolute;
+
+  left:12px;
+
+  top:12px;
+
+  font-size:13px;
+
+  color:#ddd;
+
+  pointer-events:none;
+
+  transition:0.3s;
+
+}
+
+/* FLOAT LABEL */
+
+.input-box input:focus + label,
+.input-box input:valid + label{
+
+  top:-10px;
+
+  font-size:11px;
+
+  color:#00ffe5;
+
+}
+
+/* BUTTON */
+
+.signup-btn{
+
+  width:100%;
+
+  margin-top:10px;
+
+  padding:12px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:linear-gradient(90deg,#ff9966,#ff5e62);
+
+  color:white;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:0.3s;
+
+}
+
+.signup-btn:hover{
+
+  transform:scale(1.05);
+
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+/* LOGIN LINK */
+
+.login-link{
+
+  margin-top:20px;
+
+}
+
+.login-link a{
+
+  color:#00ffe5;
+
+  text-decoration:none;
+
+}

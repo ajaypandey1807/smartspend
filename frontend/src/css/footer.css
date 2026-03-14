@@ -1,0 +1,47 @@
+.footer{
+
+  background:#0f172a;
+
+  color:white;
+
+  text-align:center;
+
+  padding:30px 20px;
+
+  margin-top:40px;
+
+}
+
+.footer-content h3{
+
+  font-size:24px;
+
+  margin-bottom:10px;
+
+}
+
+.social-icons{
+
+  margin:20px 0;
+
+}
+
+.social-icons a{
+
+  color:white;
+
+  font-size:22px;
+
+  margin:0 12px;
+
+  transition:0.3s;
+
+}
+
+.social-icons a:hover{
+
+  color:#00c6ff;
+
+  transform:scale(1.2);
+
+}

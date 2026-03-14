@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background:#0f172a;
+
+  color:white;
+
+  min-height:100vh;
+
+}
+
+/* Links */
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+/* Buttons */
+
+button{
+  cursor:pointer;
+  border:none;
+  outline:none;
+}
+
+/* Page container */
+
+.page{
+  min-height:calc(100vh - 120px);
+}
